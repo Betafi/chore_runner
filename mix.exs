@@ -32,7 +32,7 @@ defmodule ChoreRunner.MixProject do
     [
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:floki, ">= 0.30.0", only: :test},
-      {:phoenix_live_view, "~> 0.19.3"},
+      {:phoenix_live_view, "~> 0.19"},
       {:phoenix_view, "~> 2.0"},
       {:telemetry, "~> 1.1"}
     ]
